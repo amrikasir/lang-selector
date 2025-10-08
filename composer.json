@@ -1,0 +1,22 @@
+{
+  "name": "amrikasir/lang-selector",
+  "description": "Livewire-based language selector for Laravel 11",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "LanguageSelector\\App\\": "src/app/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "LanguageSelector\\App\\Providers\\LangSelectorServiceProvider"
+      ]
+    }
+  },
+  "require": {
+    "php": "^8.2",
+    "illuminate/support": "^11.0",
+    "livewire/livewire": "^3.0"
+  }
+}
