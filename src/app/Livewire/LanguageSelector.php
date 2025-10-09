@@ -91,6 +91,9 @@ class LanguageSelector extends Component
 	 */
 	public function render()
 	{
+		if (config('lang-selector.mode') === 'buttons') {
+			return view('lang-selector::livewire.language-buttons');
+		}
 		return view('lang-selector::livewire.language-dropdown');
 	}
 }
