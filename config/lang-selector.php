@@ -12,9 +12,7 @@ return [
 	*/
 	'supported_languages' => [
 		'en' => 'English',
-		'id' => 'Bahasa Indonesia',
-		'ja' => '日本語',
-		'jv' => 'Basa Jawa',
+		'id' => 'Bahasa Indonesia'
 	],
 
 	/*
@@ -43,7 +41,16 @@ return [
 	'icons' => [
 		'en' => '🇬🇧',
 		'id' => '🇮🇩',
-		'ja' => '🇯🇵',
-		'jv' => '🇮🇩', // No specific flag for Javanese, using Indonesian flag as a placeholder
 	],
+
+	/*
+	|--------------------------------------------------------------------------
+	| Mode of Language Selector
+	|--------------------------------------------------------------------------
+	| This setting determines how the language selector is displayed.
+	| Options are 'dropdown' for a dropdown menu or 'buttons' for individual buttons.
+	|
+	| available options: 'dropdown', 'buttons'
+	*/
+	'mode' => 'dropdown',
 ];
