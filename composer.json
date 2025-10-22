@@ -2,6 +2,13 @@
   "name": "amrikasir/lang-selector",
   "description": "Livewire-based language selector for Laravel 11",
   "type": "library",
+  "license": "MIT",
+  "authors": [
+      {
+          "name": "Al Amrikasir",
+          "email": "amrikasir@gmail.com"
+      }
+  ],
   "autoload": {
     "psr-4": {
       "LanguageSelector\\App\\": "src/app/"
