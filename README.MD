@@ -1,13 +1,13 @@
 # Laravel Lang Selector
 
-A simple, elegant, and reusable **Livewire 3** language switcher for **Laravel 11**.  
+A simple, elegant, and reusable **Livewire 3/4** language switcher for **Laravel 11**.  
 This package provides a ready-to-use dropdown component to switch application locales dynamically — complete with middleware, configuration, and publishable views.
 
 ---
 
 ## ✨ Features
 
-- ⚡ Built with **Livewire 3**
+- ⚡ Supports **Livewire 3 and 4**
 - 🌍 Easy multi-language switching (session-based)
 - ⚙️ Configurable via `config/lang-selector.php`
 - 🎨 Publishable views for full customization
@@ -129,4 +129,3 @@ Example minimal Tailwind version:
 This package is open-sourced software licensed under the [MIT license](LICENSE).
 
 ---
-

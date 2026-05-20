@@ -24,7 +24,7 @@
   "require": {
     "php": "^8.2",
     "illuminate/support": ">=11.0",
-    "livewire/livewire": "^3.0",
+    "livewire/livewire": "^3.0 || ^4.0",
     "vemcogroup/laravel-translation": "^3.0"
   },
   "minimum-stability": "dev"

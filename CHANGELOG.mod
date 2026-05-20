@@ -5,6 +5,11 @@ All notable changes to this project will be documented in this file.
 ## [Unreleased]
 -
 
+## [v1.1.1] - 2026-05-20
+### Changed
+- Added Livewire 4 support by allowing `livewire/livewire` `^3.0 || ^4.0`.
+- Updated README compatibility wording for Livewire 3 and 4.
+
 ## [v1.1.0] - 2026-01-11
 ### Added
 - Added dependency `vemcogroup/laravel-translation` v3.x to provide JSON translation management.
